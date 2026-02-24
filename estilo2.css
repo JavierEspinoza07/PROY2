@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: yellow;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.padre{
+    width: 90%;
+    margin: auto;
+    background: #ccff00;
+    padding: 10px;
+}
+
+/* TITULO */
+.titulo{
+    background: #c89c6d;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* MENU */
+.menu{
+    background: #66cccc;
+    padding: 10px;
+}
+
+/* CONTENIDO */
+.contenido{
+    background: #e6f2f2;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+/* CAJAS DE COLORES */
+.caja-externa{
+    background: #e67e22;
+    padding: 50px;
+}
+
+.caja-media{
+    background: yellow;
+    padding: 50px;
+}
+
+.caja-interna{
+    background: #00ff00;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+/* NOMBRE Y APELLIDO */
+.nombre, .apellido{
+    background: #5dade2;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+
+/* PIE */
+.pie{
+    background: #5dade2;
+    padding: 10px;
+}
